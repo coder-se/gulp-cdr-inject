@@ -1,0 +1,33 @@
+{
+  "name": "gulp-cdr-inject",
+  "version": "0.1.0",
+  "description": "gulp-cdr-inject",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coder-se/gulp-cdr-inject.git"
+  },
+  "author": "coder.se <git@coder.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coder-se/gulp-cdr-inject/issues"
+  },
+  "homepage": "https://github.com/coder-se/gulp-cdr-inject",
+  "dependencies": {
+    "gulp": "^3.6.1",
+    "gulp-util": "^2.2.14",
+    "lodash": "^2.4.1",
+    "through2": "^0.4.1",
+    "glob": "^3.2.9"
+  },
+  "devDependencies": {
+    "should": "^3.3.1",
+    "mocha": "^1.18.2"
+  }
+}
